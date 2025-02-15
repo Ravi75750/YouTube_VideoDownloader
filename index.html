@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="hi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAVI SAHANI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="nav" style="background-color: rgb(251, 251, 251);">
+        <h1 class="para">🎬 YOUTUBE DOWNLOADER 🎬</h1>
+    </div>
+    <div class="container">
+        <h2 style="font-size: 35px;">🎬 YOUTUBE DOWNLOADER 🎬</h2>
+        <input type="text" id="videoUrl" placeholder="Enter your url.">
+
+        <select id="format">
+            <option>Select Quality</option>
+            <option value="mp3">MP3 Audio</option>
+            <option value="mp4">MP4 (Video 720p)</option>
+            <option value="webm">WEBM (Video 1080p)</option>
+        </select>
+
+        <button onclick="downloadVideo()"> Generate </button>
+
+        <div id="progressContainer" style="display: none;">
+            <progress id="progressBar" value="0" max="100"></progress>
+            <p id="statusText">डाउनलोड प्रारंभ हो रहा है...</p>
+        </div>
+
+        <div id="downloadLinkContainer"></div>
+    </div>
+    <div class="foot" style="margin-bottom: 67px;">
+        <p>Made with ❤️ by <span style="font-weight: bold;">Ravi Sahani</span></p>
+    </div>
+    <div class="foote" style="background-color: rgb(251, 251, 251);gap: 10px;">
+        <h1 class="para" style="color: black;">Contact On: </h1> <span> <a href="https://www.instagram.com/ravi_75750"><i class="fa fa-instagram" style="font-size:40px;color:red"></i></a></span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

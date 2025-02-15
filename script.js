@@ -1,5 +1,5 @@
 async function downloadVideo() {
-    const apiKey = "b4250bdf6f4dcfe967dc84eeb5b717a6efe0865f";
+    const apiKey = "34fbc1eb1339f442394f24095b5e48a38ce41b97";
     const videoUrl = document.getElementById("videoUrl").value;
     const format = document.getElementById("format").value;
     
